@@ -1,0 +1,30 @@
+@use "sass:map";
+
+$table-primary: #CFE2FF;
+$table-secondary: #E2E3E5;
+$table-success: #D1E7DD;
+$table-danger: #F8D7DA;
+$table-warning: #FFF3CD;
+$table-info: #CFF4FC;
+$table-light: #F8F9FA;
+$table-dark: #212529;
+
+
+$colors:(
+     "primary":$table-primary,
+     "secondary": $table-secondary,
+     "success": $table-success,
+     "danger": $table-danger,
+     "warning": $table-warning,
+     "info": $table-info,
+     "light": $table-light,
+     "dark": $table-dark,
+);
+
+$base-border-width: 0.75rem;
+
+$base-border-size: 5px;
+
+$base-border-circle: 50%;    
+
+$base-border-pill: 75%;    

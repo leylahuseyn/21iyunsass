@@ -1,0 +1,9 @@
+   @each $key, $value in $colors{
+    .table-#{$key}{
+        background-color: $value;
+    }
+   }
+
+
+
+   

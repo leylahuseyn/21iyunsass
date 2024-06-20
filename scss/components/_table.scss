@@ -1,0 +1,43 @@
+// @import "../breakpoints";
+
+.table {
+  width: 100%;
+  border: 1px solid $table-dark;
+  color: $table-dark;
+  background: $table-light;
+
+  th,
+  td {
+    padding: 0.75rem;
+    border: 1px solid $table-dark;
+  }
+
+  thead th {
+    border: 1px solid $table-dark;
+  }
+
+  tbody  {
+    border: 1px solid $table-dark;
+  }
+
+  &.striped tbody tr:nth-of-type(odd) {
+    background: $table-secondary;
+  }
+
+  &.striped tbody tr:nth-of-type(even) {
+    background: $table-primary;
+  }
+
+  &.hoverable tbody tr:hover {
+    background: $table-secondary;
+  }
+
+  &.bordered {
+    border: 1px solid $table-dark;
+
+    th,
+    td {
+      border: 1px solid $table-dark;
+    }
+  }
+}

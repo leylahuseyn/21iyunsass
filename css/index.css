@@ -1,0 +1,254 @@
+.table-primary {
+  background-color: #CFE2FF;
+}
+
+.table-secondary {
+  background-color: #E2E3E5;
+}
+
+.table-success {
+  background-color: #D1E7DD;
+}
+
+.table-danger {
+  background-color: #F8D7DA;
+}
+
+.table-warning {
+  background-color: #FFF3CD;
+}
+
+.table-info {
+  background-color: #CFF4FC;
+}
+
+.table-light {
+  background-color: #F8F9FA;
+}
+
+.table-dark {
+  background-color: #212529;
+}
+
+.border-primary {
+  border-color: #CFE2FF;
+}
+
+.border-primary-subtle-1 {
+  color: #e7f1ff;
+}
+
+.border-secondary {
+  border-color: #E2E3E5;
+}
+
+.border-secondary-subtle-1 {
+  color: #f1f1f2;
+}
+
+.border-success {
+  border-color: #D1E7DD;
+}
+
+.border-success-subtle-1 {
+  color: #e8f3ee;
+}
+
+.border-danger {
+  border-color: #F8D7DA;
+}
+
+.border-danger-subtle-1 {
+  color: #fcebed;
+}
+
+.border-warning {
+  border-color: #FFF3CD;
+}
+
+.border-warning-subtle-1 {
+  color: #fff9e6;
+}
+
+.border-info {
+  border-color: #CFF4FC;
+}
+
+.border-info-subtle-1 {
+  color: #e7fafe;
+}
+
+.border-light {
+  border-color: #F8F9FA;
+}
+
+.border-light-subtle-1 {
+  color: #fcfcfd;
+}
+
+.border-dark {
+  border-color: #212529;
+}
+
+.border-dark-subtle-1 {
+  color: #909294;
+}
+
+.rounded-top {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.rounded-end {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.rounded-bottom {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.rounded-start {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.border-0 {
+  border-width: 0;
+}
+
+.border-1 {
+  border-width: 0.75rem;
+}
+
+.border-2 {
+  border-width: 1.5rem;
+}
+
+.border-3 {
+  border-width: 3rem;
+}
+
+.border-4 {
+  border-width: 4.5rem;
+}
+
+.border-5 {
+  border-width: 6rem;
+}
+
+.table {
+  width: 100%;
+  border: 1px solid #212529;
+  color: #212529;
+  background: #F8F9FA;
+}
+.table th,
+.table td {
+  padding: 0.75rem;
+  border: 1px solid #212529;
+}
+.table thead th {
+  border: 1px solid #212529;
+}
+.table tbody {
+  border: 1px solid #212529;
+}
+.table.striped tbody tr:nth-of-type(odd) {
+  background: #E2E3E5;
+}
+.table.striped tbody tr:nth-of-type(even) {
+  background: #CFE2FF;
+}
+.table.hoverable tbody tr:hover {
+  background: #E2E3E5;
+}
+.table.bordered {
+  border: 1px solid #212529;
+}
+.table.bordered th,
+.table.bordered td {
+  border: 1px solid #212529;
+}
+
+.table {
+  width: 100%;
+  border: 1px solid #212529;
+  color: #212529;
+  background: #F8F9FA;
+}
+.table th,
+.table td {
+  padding: 0.75rem;
+  border: 1px solid #212529;
+}
+.table thead th {
+  border: 1px solid #212529;
+}
+.table tbody {
+  border: 1px solid #212529;
+}
+.table.striped tbody tr:nth-of-type(odd) {
+  background: #E2E3E5;
+}
+.table.striped tbody tr:nth-of-type(even) {
+  background: #CFE2FF;
+}
+.table.hoverable tbody tr:hover {
+  background: #E2E3E5;
+}
+.table.bordered {
+  border: 1px solid #212529;
+}
+.table.bordered th,
+.table.bordered td {
+  border: 1px solid #212529;
+}
+
+@media (min-width: 0) {
+  .responsive-table .table thead {
+    background: #F8F9FA;
+  }
+}
+@media (min-width: 576px) {
+  .responsive-table .table {
+    background-color: rgb(24, 80, 80);
+  }
+}
+@media (min-width: 768px) {
+  .responsive-table .table {
+    background-color: rgb(192, 248, 248);
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .responsive-table .table {
+    background-color: rgb(226, 87, 87);
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .responsive-table .table {
+    background-color: white;
+    width: 100%;
+  }
+}
+@media (min-width: 1400px) {
+  .responsive-table .table {
+    background-color: pink;
+    width: 100%;
+  }
+}
+@media (min-width: 1500px) {
+  .responsive-table .table {
+    background-color: chocolate;
+    width: 100%;
+  }
+}
+@media (min-width: 1600px) {
+  .responsive-table .table {
+    background-color: blue;
+    width: 100%;
+  }
+}

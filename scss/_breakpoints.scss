@@ -1,0 +1,94 @@
+@import "components/table";
+$breakpoints: (
+  "xs": 0,
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px,
+  "xxl": 1400px,
+);
+
+@mixin breakpoint($bp: 0) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}
+
+@mixin xs {
+  @media (min-width: map-get($breakpoints, "xs")) {
+    @content;
+  }
+}
+@mixin sm {
+  @media (min-width: map-get($breakpoints, "sm")) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: map-get($breakpoints, "md")) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: map-get($breakpoints, "lg")) {
+    @content;
+  }
+}
+@mixin xl {
+  @media (min-width: map-get($breakpoints, "xl")) {
+    @content;
+  }
+}
+@mixin xxl {
+  @media (min-width: map-get($breakpoints, "xxl")) {
+    @content;
+  }
+}
+.responsive-table {
+  @include xs {
+    .table thead {
+      background: $table-light;
+    }
+  }
+  @include sm {
+    .table {
+      background-color: rgb(24, 80, 80);
+    }
+  }
+  @include md {
+    .table {
+      background-color: rgb(192, 248, 248);
+      width: 100%;
+    }
+  }
+  @include lg {
+    .table {
+      background-color: rgb(226, 87, 87);
+      width: 100%;
+    }
+  }
+  @include xl {
+    .table {
+      background-color: white;
+      width: 100%;
+    }
+  }
+  @include xxl {
+    .table {
+      background-color: pink;
+      width: 100%;
+    }
+  }
+  @include breakpoint(1500px) {
+    .table {
+      background-color: chocolate;
+      width: 100%;
+    }
+  }
+  @include breakpoint(1600px) {
+    .table {
+      background-color: blue;
+      width: 100%;
+    }
+  }
+}
